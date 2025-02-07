@@ -1,3 +1,14 @@
-export default function Home() {
-  return <h1>Hello world</h1>;
+import Header from "@/sections/Header";
+import Hero from "@/sections/Hero";
+
+function Home() {
+
+  return (
+    <main>
+      <Header />
+      <Hero />
+    </main>
+  )
 }
+
+export default Home;
