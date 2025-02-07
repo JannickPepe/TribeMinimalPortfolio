@@ -1,5 +1,6 @@
 import Header from "@/sections/Header";
 import Hero from "@/sections/Hero";
+import Intro from "@/sections/Intro";
 
 function Home() {
 
@@ -7,6 +8,7 @@ function Home() {
     <main>
       <Header />
       <Hero />
+      <Intro />
     </main>
   )
 }
