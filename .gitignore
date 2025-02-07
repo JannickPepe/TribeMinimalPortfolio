@@ -9,6 +9,10 @@
 # testing
 /coverage
 
+# Ignore all Lighthouse reports (anywhere in the project)
+*.report.html
+/reports/
+
 # next.js
 /.next/
 /out/

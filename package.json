@@ -7,7 +7,8 @@
     "build": "next build && next-sitemap",
     "start": "next start",
     "lint": "next lint",
-    "lighthouse": "lighthouse http://localhost:3000 --view"
+    "lighthouse:view": "lighthouse http://localhost:3000 --view",
+    "lighthouse:save": "lighthouse http://localhost:3000 --output html --output-path ./reports/lighthouse-report.html"
   },
   "dependencies": {
     "@vercel/analytics": "^1.4.1",
