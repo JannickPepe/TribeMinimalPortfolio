@@ -31,7 +31,7 @@ const Hero: FC = () => {
         
         <div className="md:col-span-5">
           <div className="mt-20 md:mt-0 md:h-full">
-            <Image src={heroImage} alt="MY Portrait" className="size-full object-cover" />
+            <Image src={heroImage} alt="My Portrait" className="size-full object-cover" />
           </div>
         </div>
       </div>

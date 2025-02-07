@@ -30,7 +30,13 @@ const projects = [
 ];
 
 const Projects: FC = () => {
-  return <div>Projects</div>;
+  return (
+    <section>
+      <div className="container">
+        Projects
+      </div>
+    </section>
+  )
 };
 
 export default Projects;

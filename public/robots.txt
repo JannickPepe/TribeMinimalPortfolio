@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin
+
+# Host
+Host: https://nighte-minimal-portfolio.vercel.app
+
+# Sitemaps
+Sitemap: https://nighte-minimal-portfolio.vercel.app/sitemap.xml
