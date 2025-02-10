@@ -41,6 +41,7 @@ const FAQs: FC = () => {
                     </svg>
                   </div>
                 </div>
+                {answer}
             </div>
           ))}
         </div>
