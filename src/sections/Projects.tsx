@@ -32,7 +32,7 @@ const projects = [
 
 const Projects: FC = () => {
   return (
-    <section className="py-24 md:py-28 lg:py-32">
+    <section className="section">
       <div className="container">
         <h2 className="text-4xl md:text-7xl lg:text-8xl">
           Selected Works

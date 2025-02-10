@@ -2,6 +2,7 @@ import Header from "@/sections/Header";
 import Hero from "@/sections/Hero";
 import Intro from "@/sections/Intro";
 import Projects from "@/sections/Projects";
+import Testimonials from "@/sections/Testimonials";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -40,6 +41,7 @@ function Home() {
       <Hero />
       <Intro />
       <Projects />
+      <Testimonials />
     </main>
   )
 }
