@@ -28,12 +28,12 @@ const navItems = [
 
 const Header: FC = () => {
   return (
-    <header className="fixed top-0 left-0 w-full backdrop-blur-md">
+    <header className="fixed top-0 left-0 w-full backdrop-blur-md mix-blend-difference">
       <div className="container !max-w-full">
         <div className="flex justify-between items-center h-20">
           <div>
             <Link href={'/'}>
-              <span className="text-xl font-bold uppercase">Minimal&nbsp; Landing</span>
+              <span className="text-xl font-bold uppercase text-white">Minimal&nbsp; Landing</span>
             </Link>
           </div>
           <div className="flex items-center gap-4">
