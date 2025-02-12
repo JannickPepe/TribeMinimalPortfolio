@@ -6,3 +6,10 @@
     @apply py-24 md:py-28 lg:py-36;
 }
 
+.line {
+    @apply overflow-hidden;
+}
+
+.word {
+    @apply translate-y-full;
+}

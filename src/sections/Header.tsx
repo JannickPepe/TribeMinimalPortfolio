@@ -8,6 +8,10 @@ import { motion, useAnimate } from 'framer-motion'
 
 const navItems = [
   {
+    label: "Home",
+    href: "#home",
+  },
+  {
     label: "About",
     href: "#intro",
   },
@@ -126,7 +130,7 @@ const Header: FC = () => {
 
   return (
     <header>
-      <div className="fixed top-0 left-0 w-full h-0 overflow-hidden bg-slate-900" ref={navScope}>
+      <div className="fixed top-0 left-0 w-full h-0 overflow-hidden bg-slate-900 z-10" ref={navScope}>
         <nav className="mt-20 flex flex-col">
           {navItems.map(({label, href}) => (
             <Link 
@@ -149,7 +153,7 @@ const Header: FC = () => {
         </nav>
       </div>
 
-      <div className="fixed top-0 left-0 w-full backdrop-blur-md mix-blend-difference">
+      <div className="fixed top-0 left-0 w-full backdrop-blur-md mix-blend-difference z-10">
         <div className="container !max-w-full">
           <div className="flex justify-between items-center h-20">
             <div>
@@ -161,7 +165,7 @@ const Header: FC = () => {
         </div>
       </div>
       
-      <div className="fixed top-0 left-0 w-full">
+      <div className="fixed top-0 left-0 w-full z-10">
         <div className="container !max-w-full">
           <div className="flex justify-end items-center h-20">
             <div className="flex items-center gap-4">
