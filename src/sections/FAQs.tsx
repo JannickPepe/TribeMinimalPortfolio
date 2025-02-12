@@ -26,7 +26,7 @@ const faqs = [
 
 const FAQs: FC = () => {
   return (
-    <section className="section">
+    <section id="faqs" className="section">
       <div className="container">
         <h2 className="text-4xl md:text-7xl lg:text-8xl">FAQs</h2>
 
