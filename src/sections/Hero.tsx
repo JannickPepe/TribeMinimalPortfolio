@@ -91,6 +91,7 @@ const Hero: FC = () => {
           >
             <Image 
               src={heroImage} 
+              loading="lazy"
               alt="My Portrait" 
               className="size-full object-cover" 
             />
