@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NightCoding Minimal Portfolio
 
-## Getting Started
+A modern AI landing page developed by **NighteCoding**. This project provides a visually appealing and responsive design using cutting-edge technologies to showcase AI UI and features.
 
-First, run the development server:
+![Project Preview](./public/images/Night-minimal-performance.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Description
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+NighteCoding Minimal Portfolio is a Next.js-based web application for showcasing AI tools and resources. It is built with a focus on performance, SEO, and responsiveness, making it ideal for presenting AI-related services and products.
+With a high score on https://pagespeed.web.dev/ 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js 14**: React framework for fast and modern web development.
+- **TypeScript**: Strongly typed programming for better maintainability.
+- **TailwindCSS**: Utility-first CSS framework for rapid UI development.
+- **Framer Motion**: Library for animations and interactions.
+- **App Directory**: Leveraging Next.js's latest app directory features.
+- **LightHouse**: Leveraging Performance checks with different terminal commands.
+- **Vercel Analytics**: Leveraging Analytical overview in your Vercel Project.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚙️ Setup Instructions
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/JannickPepe/TribeMinimalPortfolio.git
