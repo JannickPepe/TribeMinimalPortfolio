@@ -6,6 +6,7 @@ import image4 from "@/assets/images/project-4.jpg";
 import image5 from "@/assets/images/project-5.jpg";
 import Link from "next/link";
 import Image from "next/image";
+import { BubbleText } from "@/components/BubbleText";
 
 const projects = [
   {
@@ -34,9 +35,9 @@ const Projects: FC = () => {
   return (
     <section id="projects" className="section">
       <div className="container">
-        <h2 className="text-4xl md:text-7xl lg:text-8xl">
-          Selected Works
-        </h2>
+        <div className="text-4xl md:text-7xl lg:text-8xl">
+          <BubbleText text="Selected Works" className="text-4xl md:text-7xl lg:text-8xl text-neutral-700 text-start" />
+        </div>
 
         <div className="mt-10 md:mt-16 lg:mt-20">
           {projects.map(({ name, image }) => (

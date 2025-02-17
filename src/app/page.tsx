@@ -3,6 +3,7 @@ import Footer from "@/sections/Footer";
 import Header from "@/sections/Header";
 import Hero from "@/sections/Hero";
 import Intro from "@/sections/Intro";
+import LogoSlider from "@/sections/LogoSlider";
 import Projects from "@/sections/Projects";
 import Testimonials from "@/sections/Testimonials";
 import { Metadata } from "next";
@@ -42,6 +43,7 @@ function Home() {
       <Header />
       <Hero />
       <Intro />
+      <LogoSlider />
       <Projects />
       <Testimonials />
       <FAQs />

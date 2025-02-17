@@ -3,6 +3,7 @@
 import { FC, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { twMerge } from "tailwind-merge";
+import { BubbleText } from "@/components/BubbleText";
 
 const faqs = [
   {
@@ -34,7 +35,9 @@ const FAQs: FC = () => {
   return (
     <section id="faqs" className="section">
       <div className="container">
-        <h2 className="text-4xl md:text-7xl lg:text-8xl">FAQs</h2>
+        <div className="text-4xl md:text-7xl lg:text-8xl">
+          <BubbleText text="FAQ's" className="text-4xl md:text-7xl lg:text-8xl text-neutral-700 text-start" />
+        </div>
 
         <div className="mt-10 md:mt-16 lg:mt-20">
           {faqs.map(({ question, answer }, faqIndex) => (
